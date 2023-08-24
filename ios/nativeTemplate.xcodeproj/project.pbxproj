@@ -35,6 +35,23 @@
 		2C887FE224B8948F0003DC53 /* StoryBoardSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C887FE124B8948F0003DC53 /* StoryBoardSplash.m */; };
 		2C887FE324B8948F0003DC53 /* StoryBoardSplash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C887FE124B8948F0003DC53 /* StoryBoardSplash.m */; };
 		606D39F13D52405898738E00 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = AB476BB713394C4BBA73472F /* native_dependencies.json */; };
+		90C353F12A9788E50023912A /* IntuneMAMSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353F02A9788E40023912A /* IntuneMAMSwift.xcframework */; };
+		90C353F22A9788E50023912A /* IntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353F02A9788E40023912A /* IntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90C353F52A9788E70023912A /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353F42A9788E70023912A /* IntuneMAMSwiftStub.xcframework */; };
+		90C353F62A9788E70023912A /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353F42A9788E70023912A /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		90C353F82A9788F30023912A /* IntuneMAMResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90C353F72A9788F30023912A /* IntuneMAMResources.bundle */; };
+		90C353FA2A97890B0023912A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353F92A97890B0023912A /* MessageUI.framework */; };
+		90C353FC2A9789100023912A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353FB2A9789100023912A /* Security.framework */; };
+		90C353FE2A9789140023912A /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353FD2A9789140023912A /* CoreServices.framework */; };
+		90C354002A97891A0023912A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C353FF2A9789190023912A /* SystemConfiguration.framework */; };
+		90C354042A9789290023912A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C354032A9789280023912A /* ImageIO.framework */; };
+		90C354052A9789310023912A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C354012A97891F0023912A /* libsqlite3.tbd */; };
+		90C354062A9789360023912A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C354022A9789240023912A /* libc++.tbd */; };
+		90C354082A97893B0023912A /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C354072A97893B0023912A /* LocalAuthentication.framework */; };
+		90C3540A2A97893F0023912A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C354092A97893F0023912A /* AudioToolbox.framework */; };
+		90C3540C2A9789450023912A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C3540B2A9789450023912A /* QuartzCore.framework */; };
+		90C3540E2A97894A0023912A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C3540D2A97894A0023912A /* WebKit.framework */; };
+		90C354102A97894F0023912A /* MetricKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C3540F2A97894F0023912A /* MetricKit.framework */; };
 		9DF4091425A46A56E2A9A405 /* libPods-nativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73F36AC2CCD37CCD4E7B1BB8 /* libPods-nativeTemplate.a */; };
 		B28D6DAD97033B55832E5853 /* libPods-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11502903429AC2E6E69E6482 /* libPods-dev.a */; };
 		D1159C5808CE40FA8FF21C10 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = AB476BB713394C4BBA73472F /* native_dependencies.json */; };
@@ -48,12 +65,27 @@
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		90C353F32A9788E50023912A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				90C353F62A9788E70023912A /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
+				90C353F22A9788E50023912A /* IntuneMAMSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		11502903429AC2E6E69E6482 /* libPods-dev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* nativeTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nativeTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* TestInTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestInTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = nativeTemplate/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nativeTemplate/Info.plist; sourceTree = "<group>"; };
-		1A0B3A922397DA2300388BF7 /* NativeTemplateDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeTemplateDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A0B3A922397DA2300388BF7 /* NativeTemplateDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = NativeTemplateDev.app; path = TestInTuneDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0B3A982397DA2300388BF7 /* LaunchAppViewController.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = LaunchAppViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 		1A0B3A9B2397DA2300388BF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchApp.storyboard; sourceTree = "<group>"; };
 		1A0B3AD22397E15800388BF7 /* MendixApp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MendixApp.storyboard; sourceTree = "<group>"; };
@@ -86,8 +118,23 @@
 		6ABE4BDB54D431090249D8EC /* Pods-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.release.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.release.xcconfig"; sourceTree = "<group>"; };
 		73F36AC2CCD37CCD4E7B1BB8 /* libPods-nativeTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nativeTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EEDF4024CB6865C31DBA5BB /* Pods-nativeTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeTemplate.release.xcconfig"; path = "Target Support Files/Pods-nativeTemplate/Pods-nativeTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		90C353F02A9788E40023912A /* IntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwift.xcframework; path = InTuneSDK/IntuneMAMSwift.xcframework; sourceTree = "<group>"; };
+		90C353F42A9788E70023912A /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwiftStub.xcframework; path = InTuneSDK/IntuneMAMSwiftStub.xcframework; sourceTree = "<group>"; };
+		90C353F72A9788F30023912A /* IntuneMAMResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IntuneMAMResources.bundle; path = InTuneSDK/IntuneMAMResources.bundle; sourceTree = "<group>"; };
+		90C353F92A97890B0023912A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		90C353FB2A9789100023912A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		90C353FD2A9789140023912A /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		90C353FF2A9789190023912A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		90C354012A97891F0023912A /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		90C354022A9789240023912A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		90C354032A9789280023912A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		90C354072A97893B0023912A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		90C354092A97893F0023912A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		90C3540B2A9789450023912A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		90C3540D2A97894A0023912A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		90C3540F2A97894F0023912A /* MetricKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetricKit.framework; path = System/Library/Frameworks/MetricKit.framework; sourceTree = SDKROOT; };
 		9A27E05F0AD54B417B79E303 /* Pods-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.debug.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.debug.xcconfig"; sourceTree = "<group>"; };
-		AB476BB713394C4BBA73472F /* native_dependencies.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = native_dependencies.json; path = native_dependencies.json; sourceTree = "<group>"; };
+		AB476BB713394C4BBA73472F /* native_dependencies.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = native_dependencies.json; sourceTree = "<group>"; };
 		BFF2B70938A7895ADAB4177A /* Pods-dev.releasedevapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.releasedevapp.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.releasedevapp.xcconfig"; sourceTree = "<group>"; };
 		CBB85EF00DCBBB622B4C25E7 /* Pods-nativeTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeTemplate.release.xcconfig"; path = "Target Support Files/Pods-nativeTemplate/Pods-nativeTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		DDC51A1160C5ED4D3C396705 /* Pods-dev.releasedevapp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dev.releasedevapp.xcconfig"; path = "Target Support Files/Pods-dev/Pods-dev.releasedevapp.xcconfig"; sourceTree = "<group>"; };
@@ -108,9 +155,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C353F12A9788E50023912A /* IntuneMAMSwift.xcframework in Frameworks */,
+				90C354002A97891A0023912A /* SystemConfiguration.framework in Frameworks */,
+				90C3540E2A97894A0023912A /* WebKit.framework in Frameworks */,
+				90C353F52A9788E70023912A /* IntuneMAMSwiftStub.xcframework in Frameworks */,
+				90C353FA2A97890B0023912A /* MessageUI.framework in Frameworks */,
+				90C354042A9789290023912A /* ImageIO.framework in Frameworks */,
+				90C3540C2A9789450023912A /* QuartzCore.framework in Frameworks */,
 				E8FF139E28C8D4510066AC98 /* mendixnative.xcframework in Frameworks */,
+				90C354062A9789360023912A /* libc++.tbd in Frameworks */,
+				90C354082A97893B0023912A /* LocalAuthentication.framework in Frameworks */,
+				90C353FC2A9789100023912A /* Security.framework in Frameworks */,
 				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				9DF4091425A46A56E2A9A405 /* libPods-nativeTemplate.a in Frameworks */,
+				90C3540A2A97893F0023912A /* AudioToolbox.framework in Frameworks */,
+				90C354052A9789310023912A /* libsqlite3.tbd in Frameworks */,
+				90C354102A97894F0023912A /* MetricKit.framework in Frameworks */,
+				90C353FE2A9789140023912A /* CoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +259,20 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				90C3540F2A97894F0023912A /* MetricKit.framework */,
+				90C3540D2A97894A0023912A /* WebKit.framework */,
+				90C3540B2A9789450023912A /* QuartzCore.framework */,
+				90C354092A97893F0023912A /* AudioToolbox.framework */,
+				90C354072A97893B0023912A /* LocalAuthentication.framework */,
+				90C354032A9789280023912A /* ImageIO.framework */,
+				90C354022A9789240023912A /* libc++.tbd */,
+				90C354012A97891F0023912A /* libsqlite3.tbd */,
+				90C353FF2A9789190023912A /* SystemConfiguration.framework */,
+				90C353FD2A9789140023912A /* CoreServices.framework */,
+				90C353FB2A9789100023912A /* Security.framework */,
+				90C353F92A97890B0023912A /* MessageUI.framework */,
+				90C353F42A9788E70023912A /* IntuneMAMSwiftStub.xcframework */,
+				90C353F02A9788E40023912A /* IntuneMAMSwift.xcframework */,
 				E8B1254D2869E1AF000161E3 /* mendixnative.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				11502903429AC2E6E69E6482 /* libPods-dev.a */,
@@ -209,6 +284,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				90C353F72A9788F30023912A /* IntuneMAMResources.bundle */,
 				13B07FAE1A68108700A75B9A /* NativeTemplate */,
 				1A0B3A932397DA2300388BF7 /* Dev */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -225,7 +301,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* nativeTemplate.app */,
+				13B07F961A680F5B00A75B9A /* TestInTune.app */,
 				1A0B3A922397DA2300388BF7 /* NativeTemplateDev.app */,
 			);
 			name = Products;
@@ -290,6 +366,7 @@
 				E76B33B54A5C7944CC054730 /* [CP] Copy Pods Resources */,
 				C171C7EB581899B1919413BD /* [CP-User] [RNFB] Core Configuration */,
 				317C1C5D384B82C206C2E6F0 /* [CP] Embed Pods Frameworks */,
+				90C353F32A9788E50023912A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -297,7 +374,7 @@
 			);
 			name = nativeTemplate;
 			productName = "Hello World";
-			productReference = 13B07F961A680F5B00A75B9A /* nativeTemplate.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* TestInTune.app */;
 			productType = "com.apple.product-type.application";
 		};
 		1A0B3A912397DA2300388BF7 /* dev */ = {
@@ -373,6 +450,7 @@
 				EB55620C22E0755000E19C26 /* glyphicons-halflings-regular.ttf in Resources */,
 				1A0B3AF323990C2400388BF7 /* config.xcconfig in Resources */,
 				606D39F13D52405898738E00 /* native_dependencies.json in Resources */,
+				90C353F82A9788F30023912A /* IntuneMAMResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +741,7 @@
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = K8AJZV2G24;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -742,6 +821,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8AJZV2G24;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -981,6 +1061,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8AJZV2G24;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
