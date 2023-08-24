@@ -25,7 +25,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>msauth.com.microsoft.intunemam</string>
+				<string>msauth.$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 			</array>
 		</dict>
 	</array>
@@ -34,6 +34,8 @@
 	<key>CodePushKey</key>
 	<string></string>
 	<key>GoogleMapsApiKey</key>
+	<string></string>
+	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
@@ -128,5 +130,14 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>IntuneMAMSettings</key>
+	<dict>
+		<key>ADALClientId</key>
+		<string>bd4202b6-53c7-4069-a95e-67c8600d0739</string>
+		<key>ADALAuthority</key>
+		<string>https://login.microsoftonline.com/c829ed0e-c776-43c4-a919-54d474719b21</string>
+		<key>ADALRedirectUri</key>
+		<string>msauth.myapp.testintune://auth</string>
+	</dict>
 </dict>
 </plist>
