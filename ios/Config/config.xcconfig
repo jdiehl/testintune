@@ -1,0 +1,8 @@
+PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
+
+BUNDLE_DISPLAY_NAME = TestInTune
+BUNDLE_IDENTIFIER = myapp.testintune
+
+RUNTIME_URL = https:\/\/testintune-sandbox.mxapps.io
+
+PRODUCT_NAME = TestInTune
