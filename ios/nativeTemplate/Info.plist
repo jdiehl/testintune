@@ -138,6 +138,10 @@
 		<string>https://login.microsoftonline.com/c829ed0e-c776-43c4-a919-54d474719b21</string>
 		<key>ADALRedirectUri</key>
 		<string>msauth.myapp.testintune://auth</string>
+		<key>AutoEnrollOnLaunch</key>
+		<true/>
+		<key>MAMPolicyRequired</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
